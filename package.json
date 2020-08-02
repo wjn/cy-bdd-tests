@@ -1,0 +1,32 @@
+{
+  "name": "cy-bdd-tests",
+  "version": "1.0.0",
+  "description": "BDD learning sandbox for cypress and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjn/cy-bdd-tests.git"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Will Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjn/cy-bdd-tests/issues"
+  },
+  "homepage": "https://github.com/wjn/cy-bdd-tests#readme",
+  "dependencies": {
+    "cypress": "^4.11.0",
+    "cypress-cucumber-preprocessor": "^2.5.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
