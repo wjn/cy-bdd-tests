@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "prettier": "^2.0.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
